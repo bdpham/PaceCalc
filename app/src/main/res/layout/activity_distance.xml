@@ -19,27 +19,27 @@
         android:hint="@string/timeHint"
         android:inputType="time"/>
     <TextView
-        android:id="@+id/distance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/distanceText"
-        />
-    <EditText
-        android:id="@+id/distanceBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/distanceHint"
-        android:inputType="number"/>
-    <TextView
         android:id="@+id/resultPace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/resultPace" />
-    <TextView
+        android:text="@string/resultPace"
+        />
+    <EditText
         android:id="@+id/resultPaceBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/resultPaceHint" />
+        android:hint="@string/resultPaceHint"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/distanceText" />
+    <TextView
+        android:id="@+id/distanceBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/distanceHint" />
 
     <Button
         android:id="@+id/button"
